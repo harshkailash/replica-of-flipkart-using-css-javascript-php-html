@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Font awesome icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+<!-- css code for image zoom -->
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 60px;
+  height: 60px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
+<!-- css code for image zoom -->
+
+
+<!-- css code for sliders -->
+.mySlides {display:none;}
+<!-- css code for sliders -->
+
+<!-- code for rating -->
+.checked {
+color: orange;
+}
+<!-- code for rating -->
+
+<!-- code for dropdown menu -->
+.dropdown {
+ position: relative;
+ display: inline-block;
+ }
+ .dropdown-content {
+   display: none;   
+   position: absolute; 
+   background-color: #2874f0; 
+   min-width: 100px;  
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+   padding: 12px 16px;  
+   color:white;
+   }
+.dropdown:hover .dropdown-content {  
+  display: block;
+}  
+<!-- code for dropdown menu -->
+
+</style>
+<title> PENDRIVE2 </title>
+</head>
+<body bgcolor="#F1F3F6">
+<table border="0" width="100%" bgcolor="2874f0">
+<tr>
+<td align="right"><img src="logo.png"></td>
+<td><input type="text" placeholder="search for products,brands" style="width:550px;height:35px;"><input type="button" value="search" style="width:110px;height:35px;"></td>
+<td><font color="white">Login & signup</font></td>
+<th><font color="white">More<select>
+             <option value="lucknow">Notification Preference</option>
+             <option value="mumbai">Sell on Flipkart</option>
+             <option value="delhi">24x7 customer care</option>
+             <option value="kolkata">Advertise</option>
+             </select></th>
+<th><img src="cart.png"></th>
+</tr>
+</table>
+
+<br>
+<table border="0" width="100%" bgcolor="white" height="9%">
+<tr>
+<th width="12.5%">
+<div class="dropdown">
+<span>Electronics</span>
+  <div class="dropdown-content">
+  <p>Mobile</p>
+  <p>Laptop</p>
+  <p>Mobile Accessories</p> 
+  <p>Earphones</p>
+  </div>
+</div>
+</th>
+
+
+<th width="12.5%">
+<div class="dropdown">
+<span>TV's and appliances</span>
+  <div class="dropdown-content">
+  <p>Remote</p>
+  <p>Smart TV</p>
+  <p>Washing Machine</p> 
+  <p>Air Conditioners</p>
+  </div>
+</div>
+</th>
+
+
+<th width="12.5%">
+<div class="dropdown">
+<span>Men</span>
+  <div class="dropdown-content">
+  <p>Clothing</p>
+  <p>T-shirts</p>
+  <p>Sports wear</p> 
+  <p>Pants</p>
+  </div>
+</div>
+</th>
+
+
+
+<th width="12.5%">
+<div class="dropdown">
+<span>Women</span>
+  <div class="dropdown-content">
+  <p>Ethnic wear</p>
+  <p>Sports wear</p>
+  <p>Foot wear</p> 
+  <p>Jeans, Leggings</p>
+  </div>
+</div>
+</th>
+
+
+<th width="12.5%"><div class="dropdown">
+<span>Baby & Kids</span>
+  <div class="dropdown-content">
+  <p>Kids clothing</p>
+  <p>Baby Footwear</p>
+  <p>Baby Care</p> 
+  <p>School Supplies</p>
+  </div>
+</div>
+</th>
+
+
+<th width="12.5%"><div class="dropdown">
+<span>Home & Furniture</span>
+  <div class="dropdown-content">
+  <p>Cookware</p>
+  <p>Tableware</p>
+  <p>Kitchen Storage</p> 
+  <p>Office and study furniture</p>
+  </div>
+</div>
+</th>
+
+
+<th width="12.5%"><div class="dropdown">
+<span>Sports books and more</span>
+  <div class="dropdown-content">
+  <p>Cricket</p>
+  <p>Fitness</p>
+  <p>Books</p> 
+  <p>Industrial and scientific tools</p>
+  </div>
+</div>
+</th>
+
+
+<th width="12.5%"><div class="dropdown">
+<span>Offer Zone</span>
+  <div class="dropdown-content">
+  <p>Offers on mobile</p>
+  <p>offers on TV's</p>
+  <p>offers on Washing Machine</p> 
+  <p>offers on Air Conditioners</p>
+  </div>
+</div>
+</th>
+</tr>
+</table>
+
+<table>
+<br><br>
+<table border="0" width="100%">
+<tr>
+<th width="10%" class="img-zoom-container"><img src="pendrive2.png" width="100%"  id="myimage"></th>
+<td width="50%"><b><font size="5">SanDisk SDDD3-032G-I35GW 32 GB OTG Drive  (Gold, Type A to Micro USB)</font></b>
+<br>
+<font color="red">Special price</font>
+<br>
+<font size="6"><b>₹360</b></font> &nbsp &nbsp  <font color="gray"><s>₹1,999</s></font> &nbsp &nbsp  <font color="green">81% off </font>
+
+<br>
+
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked"></span>
+
+<br>
+
+<font size="5">
+<ul>
+  <li>Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit CardT&C</li>
+
+<li>.Bank OfferExtra 5% off* with Axis Bank Buzz Credit CardT&C</li>
+
+<li>Special PriceGet extra 4% off (price inclusive of discount)T&C</li>
+
+<li>No Cost EMI on Bajaj Finserv EMI Card on cart value above ₹4499T&C</li>
+<br>
+</font>
+
+<br>
+
+<input type="button" value="Add to Cart" style="background-color:orange;color:white;width:200px;height:40px;font-size:15px;">
+<input type="button" value="BUY NOW" style="background-color:green;color:white;width:200px;height:40px;font-size:15px;">
+</td>
+
+<td id="myresult" class="img-zoom-result"></td>
+
+</tr>
+</table>
+  
+<table border="0" width="100%">
+<tr>
+<td bgcolor="black" width="25%"><font color="white"><b>About</b></font></td>
+<td bgcolor="black" width="25%"><font color="white"><b>Help</b></font></td>
+<td bgcolor="black" width="25%"><font color="white"><b>Policy</b></font></td>
+<td bgcolor="black" width="25%"><font color="white"><b>Social</b></font></td>
+</tr>
+
+<tr>
+<td bgcolor="black"><font color="white">
+<ul>
+<li>Contact Us</li>
+<li>About Us</li>
+<li>Careers</li>
+<li>Press</li>
+</font>
+</ul>
+</td>
+
+<td bgcolor="black"><font color="white">
+<ul>
+<li>Payments</li>
+<li>Shipping</li>
+<li>FAQ</li>
+<li>Report</li>
+</font>
+</ul>
+</td>
+
+<td bgcolor="black"><font color="white">
+<ul>
+<li>Return Policy</li>
+<li>Terms of Use</li>
+<li>Security</li>
+<li>Privacy</li>
+</font>
+</ul>
+</td>
+
+<td bgcolor="black"><font color="white">
+<ul>
+<li>Facebook</li>
+<li>Twitter</li>
+<li>Instagram</li>
+<li>Youtube</li>
+</font>
+</ul>
+</td>
+</tr>
+
+<tr>
+<th colspan="4" bgcolor="black" width="25%"><font color="white"> Sell on flipkart &nbsp &nbsp Advertise &nbsp &nbsp gift cards &nbsp &nbsp Help Center</font></th>
+</tr>
+</table>
+
+<!-- script code for image zoom -->
+<script>
+function imageZoom(imgID, resultID) {
+  var img, lens, result, cx, cy;
+  img = document.getElementById(imgID);
+  result = document.getElementById(resultID);
+  /*create lens:*/
+  lens = document.createElement("DIV");
+  lens.setAttribute("class", "img-zoom-lens");
+  /*insert lens:*/
+  img.parentElement.insertBefore(lens, img);
+  /*calculate the ratio between result DIV and lens:*/
+  cx = result.offsetWidth / lens.offsetWidth;
+  cy = result.offsetHeight / lens.offsetHeight;
+  /*set background properties for the result DIV:*/
+  result.style.backgroundImage = "url('" + img.src + "')";
+  result.style.backgroundSize = (img.width * cx) + "px " + (img.height * cy) + "px";
+  /*execute a function when someone moves the cursor over the image, or the lens:*/
+  lens.addEventListener("mousemove", moveLens);
+  img.addEventListener("mousemove", moveLens);
+  /*and also for touch screens:*/
+  lens.addEventListener("touchmove", moveLens);
+  img.addEventListener("touchmove", moveLens);
+  function moveLens(e) {
+    var pos, x, y;
+    /*prevent any other actions that may occur when moving over the image:*/
+    e.preventDefault();
+    /*get the cursor's x and y positions:*/
+    pos = getCursorPos(e);
+    /*calculate the position of the lens:*/
+    x = pos.x - (lens.offsetWidth / 2);
+    y = pos.y - (lens.offsetHeight / 2);
+    /*prevent the lens from being positioned outside the image:*/
+    if (x > img.width - lens.offsetWidth) {x = img.width - lens.offsetWidth;}
+    if (x < 0) {x = 0;}
+    if (y > img.height - lens.offsetHeight) {y = img.height - lens.offsetHeight;}
+    if (y < 0) {y = 0;}
+    /*set the position of the lens:*/
+    lens.style.left = x + "px";
+    lens.style.top = y + "px";
+    /*display what the lens "sees":*/
+    result.style.backgroundPosition = "-" + (x * cx) + "px -" + (y * cy) + "px";
+  }
+  function getCursorPos(e) {
+    var a, x = 0, y = 0;
+    e = e || window.event;
+    /*get the x and y positions of the image:*/
+    a = img.getBoundingClientRect();
+    /*calculate the cursor's x and y coordinates, relative to the image:*/
+    x = e.pageX - a.left;
+    y = e.pageY - a.top;
+    /*consider any page scrolling:*/
+    x = x - window.pageXOffset;
+    y = y - window.pageYOffset;
+    return {x : x, y : y};
+  }
+}
+</script>
+<!-- script code for image zoom -->
+
+
+<script>
+// Initiate zoom effect:
+imageZoom("myimage", "myresult");
+</script>
+
+</head>
+</body>
+</body>
+</html>

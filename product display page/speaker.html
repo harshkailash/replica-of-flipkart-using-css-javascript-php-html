@@ -1,0 +1,387 @@
+<html>
+<head>
+
+<!-- Font awesome icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+<!-- code for search box searching -->
+.dropbtn 
+{
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+#myInput 
+{
+  box-sizing: border-box;
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border: 0px solid #ddd;
+}
+
+#myInput:focus 
+{
+outline: 0px solid #ddd;
+}
+
+.dropdown 
+{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a 
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover 
+{
+background-color: #ddd;
+}
+
+.show 
+{
+display: block;
+}
+
+<!-- css code for search box searching -->
+
+<!-- css code for sliders -->
+.mySlides {display:none;}
+<!-- css code for sliders -->
+
+<!-- code for rating -->
+.checked {
+color: orange;
+}
+<!-- code for rating -->
+
+.dropdown {
+ position: relative;
+ display: inline-block;
+ }
+ .dropdown-content {
+   display: none;   
+   position: absolute; 
+   background-color: #2874f0; 
+   min-width: 100px;  
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+   padding: 12px 16px;  
+   color:white;
+   }
+.dropdown:hover .dropdown-content {  
+  display: block;
+}  
+</style>
+
+<title> Laptop Bags </title>
+</head>
+<body bgcolor="#F1F3F6">
+<table border="0" width="100%" bgcolor="2874f0">
+<tr>
+<td align="right"><img src="logo.png"></td>
+<td class="dropdown"><input type="text" placeholder="search for products,brands" style="width:550px;height:35px;margin-top:3px;"  onclick="myFunction()" class="dropbtn" id="myInput" onkeyup="filterFunction()">
+
+ <div id="myDropdown" class="dropdown-content">
+    
+    <a href="speaker.html">speaker</a>
+    <a href="ss.html">sweat shirt</a>
+    <a href="earphone.html">earphone</a>
+    <a href="bag.html">Bags</a>
+    <a href="mobile.html">Mobile</a>
+    <a href="shoes.html">Shoes</a>
+    <a href="deals.html">deals</a>
+  <a href="kitchen.html">kitchen</a>
+  <a href="pendrives.html">pendrive</a>
+  </div>
+  <input type="button" value="search" style="width:110px;height:35px;">
+  </td>
+
+<td><font color="white">Login & signup</font></td>
+<th><font color="white">More<select>
+					   <option value="lucknow">Notification Preference</option>
+					   <option value="mumbai">Sell on Flipkart</option>
+					   <option value="delhi">24x7 customer care</option>
+					   <option value="kolkata">Advertise</option>
+					   </select></th>
+<th><img src="cart.png"></th>
+</tr>
+</table>
+
+<br>
+<table border="0" width="100%" bgcolor="white" height="9%">
+<tr>
+<th width="12.5%">
+<div class="dropdown">
+<span>Electronics</span>
+	<div class="dropdown-content">
+	<p>Mobile</p>
+	<p>Laptop</p>
+	<p>Mobile Accessories</p> 
+	<p>Earphones</p>
+	</div>
+</div>
+</th>
+
+
+<th width="12.5%">
+<div class="dropdown">
+<span>TV's and appliances</span>
+	<div class="dropdown-content">
+	<p>Remote</p>
+	<p>Smart TV</p>
+	<p>Washing Machine</p> 
+	<p>Air Conditioners</p>
+	</div>
+</div>
+</th>
+
+
+<th width="12.5%">
+<div class="dropdown">
+<span>Men</span>
+	<div class="dropdown-content">
+	<p>Clothing</p>
+	<p>T-shirts</p>
+	<p>Sports wear</p> 
+	<p>Pants</p>
+	</div>
+</div>
+</th>
+
+
+
+<th width="12.5%">
+<div class="dropdown">
+<span>Women</span>
+	<div class="dropdown-content">
+	<p>Ethnic wear</p>
+	<p>Sports wear</p>
+	<p>Foot wear</p> 
+	<p>Jeans, Leggings</p>
+	</div>
+</div>
+</th>
+
+
+<th width="12.5%"><div class="dropdown">
+<span>Baby & Kids</span>
+	<div class="dropdown-content">
+	<p>Kids clothing</p>
+	<p>Baby Footwear</p>
+	<p>Baby Care</p> 
+	<p>School Supplies</p>
+	</div>
+</div>
+</th>
+
+
+<th width="12.5%"><div class="dropdown">
+<span>Home & Furniture</span>
+	<div class="dropdown-content">
+	<p>Cookware</p>
+	<p>Tableware</p>
+	<p>Kitchen Storage</p> 
+	<p>Office and study furniture</p>
+	</div>
+</div>
+</th>
+
+
+<th width="12.5%"><div class="dropdown">
+<span>Sports books and more</span>
+	<div class="dropdown-content">
+	<p>Cricket</p>
+	<p>Fitness</p>
+	<p>Books</p> 
+	<p>Industrial and scientific tools</p>
+	</div>
+</div>
+</th>
+
+
+<th width="12.5%"><div class="dropdown">
+<span>Offer Zone</span>
+	<div class="dropdown-content">
+	<p>Offers on mobile</p>
+	<p>offers on TV's</p>
+	<p>offers on Washing Machine</p> 
+	<p>offers on Air Conditioners</p>
+	</div>
+</div>
+</th>
+</tr>
+</table>
+
+<table border="0" width="100%" bgcolor="white" height="9%">
+<tr>
+<td colspan="5"><h2>Laptop Bags</h2><hr></td>
+<tr>
+<th><img src="speaker1.jpeg" width="50%"></th>
+<th><img src="speaker2.jpeg" width="50%"></th>
+<th><img src="speaker3.jpeg" width="50%"></th>
+<th><img src="speaker4.jpeg" width="50%"></th>
+<th><img src="speaker5.jpeg" width="50%"></th>
+</tr>
+
+<tr>
+<th>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked"></span>
+</th>
+<th>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked"></span>
+</th>
+<th>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked"></span>
+</th>
+<th>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked"></span>
+</th>
+<th>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked" style="color:orange;"></span>
+<span class="fa fa-star checked"></span>
+</th>
+</tr>
+
+
+<tr>
+<th> - &nbsp Price:599/- &nbsp +</th>
+<th> - &nbsp Price:499/- &nbsp +</th>
+<th> - &nbsp Price:699/- &nbsp +</th>
+<th> - &nbsp Price:799/- &nbsp +</th>
+<th> - &nbsp Price:999/- &nbsp +</th>
+</tr>
+
+<tr>
+<th><a href="details21.html"><input type="button" value="Show details" style="width:140px;height:30px;background-color:blue;color:white;"></a></th>
+<th><a href="details22.html"><input type="button" value="Show details" style="width:140px;height:30px;background-color:blue;color:white;"></a></th>
+<th><a href="details23.html"><input type="button" value="Show details" style="width:140px;height:30px;background-color:blue;color:white;"></a></th>
+<th><a href="details24.html"><input type="button" value="Show details" style="width:140px;height:30px;background-color:blue;color:white;"></a></th>
+<th><a href="details25.html"><input type="button" value="Show details" style="width:140px;height:30px;background-color:blue;color:white;"></a></th>
+</tr>
+</table>
+
+<br>
+
+
+<!-- script to change slides in main display -->
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+var i;
+var x = document.getElementByClassName("mySlides");
+for(i=0; i < x.length; i++) {
+x[i].style.display="none";
+}
+myIndex++;
+if(myIndex > x.length) {myIndex = 1}
+x[myIndex-1].style.display="block";
+setTimeout(carousel,3000); //change image every 3 seconds
+}
+</script>
+<!-- script to change slides in main display -->
+
+<!-- script to display timer -->
+<script>
+// Set the date we're counting down to
+var timer = new Date("Jan 12, 2020 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var today = new Date().getTime();
+    
+  // Find the daysLeft between today and the count down date
+  var daysLeft = timer - today;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(daysLeft / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((daysLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((daysLeft % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((daysLeft % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="counter"
+  document.getElementById("counter").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (daysLeft < 0) {
+    clearInterval(x);
+    document.getElementById("counter").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<!-- script to display timer -->
+
+<!-- script for searching items -->
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+<!-- script for searching items -->
+
+</body>
+</html>
